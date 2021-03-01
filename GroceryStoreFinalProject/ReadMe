@@ -1,0 +1,63 @@
+ReadMe
+
+Developers: 
+
+	Yarin Mizrahi 205663917	
+	Chen Gutman 205616147
+
+
+Project Subject: 
+
+	We created a Grocery Store App for shop owners which will help them manage incomes, products and also serves customers by shopping through the app.
+
+
+WorkSpace: 
+
+	1.QT Creator - Download Here: https://www.qt.io/download-open-source
+
+	   -Install on Windows: https://www.youtube.com/watch?v=sEXOkBm_fuo
+	   -Install on mac: https://www.youtube.com/watch?v=wkKpZtrwdog
+
+	2.DB Browser for SQLite - Download here: https://sqlitebrowser.org/
+
+
+
+Notice:
+	* The project created to run locally in stores using local db and no need of clouds or servers.
+
+	*Do Not Download the git file because it makes some troubles with the .pro file which executes the program. In the git file you can see the code and also the MVC Design Pattern that we dicided to use.  
+
+	You should unzip the files and drag the "GroceryStoreApp" Directory and the "database.DB" file to your desktop. 
+
+	Open the qt Creator Program and open "GroceryStoreApp" directory and enter to "GroceryStoreApp.pro". Then the file will open in the qt Creator and build.
+
+	In the files to the left side of the window You will see the Headers - Model, Sources - Controller and Forms - View.
+
+	* In mainwindow.cpp You should change the image path in order to see it.
+	* In signin.cpp You should change the image path in order to see it.
+	** Most importently - in databaseconnector.h You need to set the right path of the DB file location.
+
+	After changing the paths press on the build button (Hammer) and run the program (green triangle).
+
+
+
+Users:
+
+	Customer: Email: yarin@gmail.com, Password: 1234
+
+	Admin: Email: michal@admin.com, Password: 1234
+
+	** You can only Signup as customer (Not as Admin).
+
+
+DataBase:
+	We Created five tabels:
+		Login - Keeps data about the System users and admins.
+		Products - All the Store Products data.
+		Purchase - Keeps data about Products bought by Customers per cart.
+		Payments - Keeps track on all payments were made by cash or card.
+		DailyIncomes - 	Keeps record of daily incomes by dates.
+
+
+
+	Enjoy! :)
